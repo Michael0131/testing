@@ -9,12 +9,14 @@ class Activity
     protected string description;
     protected int duration;
 
+
     public Activity(string name, string description)
     {
         this.name = name;
         this.description = description;
     }
-
+    // Shuffle the prompts - this is my extra work
+    
     public virtual void StartActivity()
     {
         Console.Clear();
@@ -79,4 +81,5 @@ class Activity
         }
         Console.WriteLine();
     }
+    // Randominze all initial prompts
 }

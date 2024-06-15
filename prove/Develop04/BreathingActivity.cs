@@ -28,9 +28,11 @@ class BreathingActivity : Activity
             Console.Write("Breathe in...");
             ShowCountdown(5);
             Console.Clear();
+            Console.WriteLine();
             Console.Write("Breathe out...");
             ShowCountdown(5);
             Console.Clear();
+            Console.WriteLine();
             
             if (stopwatch.Elapsed.TotalSeconds >= duration)
             {
